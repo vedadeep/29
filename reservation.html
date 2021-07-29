@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about_us.html">About us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </div><!--container-->
+    </header>
+    <section>
+        <div class="booking-form-w3layouts">
+        <!-- Form starts here -->
+        
+        <form action="reserv1.php" method="post">
+        
+       
+       <!-------------------------------------------------------------------------------------------------------------> 
+       <h2 class="sub-heading-agileits">polytechnic Details</h2>
+       <div class="main-flex-w3ls-sectns">
+           <div class="field-agileinfo-spc form-w3-agile-text1">
+               <!--input type="text" name="Location" value=""-->
+                   <select name="Poly_ID" class="form-control">
+                       <option>Location</option>
+                       <option value="1">1-Reduit campus</option>
+                       <option value="2">2-Pamplemousses campus</option>
+                       <option value="3">3-Montagne blanche campus</option>                
+                   </select>
+           </div><!--field-agileinfo-spc form-w3-agile-text1 -->
+       </div><!--class main-flex-w3ls-sectns" -->
+        
+        <!--------------------------------------------------------------------------------------------------------------------------------------->
+           
+<!--................................................................................................................................................................-->
+            <h3 class="sub-heading-agileits">Parking Details</h3>
+            <div class="radio-section">
+            <h6>parking_id details</h6>
+            <div class="main-flex-w3ls-sectns">
+                <div class="field-agileinfo-spc form-w3-agile-text1">
+                    <!--input type="text" name="Location" value=""-->
+                        <select name="Park_ID" class="form-control">
+                            <option>Park_ID</option>
+                            <option value="1">1-p1</option>
+                            <option value="2">2-P2</option>
+                            <option value="3">3-p3</option> 
+                            <option value="4">4-p4</option>
+                            <option value="5">5-p5</option>               
+                        </select>
+                </div><!--field-agileinfo-spc form-w3-agile-text1 -->
+            </div><!--class main-flex-w3ls-sectns" -->
+        </div>
+
+
+            <div class="radio-section">
+                <h6>Date details</h6>
+                <div class="main-flex-w3ls-sectns">
+                    <!--div class="field-agileinfo-spc form-w3-agile-text1">
+                        <input id="datepicker" name="Dateof" type="text" placeholder= "Date of Entry" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd/mm/yyyy';}" required="" class="hasDatepicker">
+                    </div-->
+                    <div class="field-agileinfo-spc form-w3-agile-text1">
+                        <input type="text" name="Dateofentry" placeholder="Date of Entry(dd/mm/yyyy)" required="">
+                    </div>
+                </div><!--main-flex-w3ls-sectns-->
+            </div><!--ratio-section --> 
+
+            <div class="radio-section">
+                <h6>Entry details</h6>
+                <div class="main-flex-w3ls-sectns">
+                    <div class="field-agileinfo-spc form-w3-agile-text1">
+                        <input type="text" name="Timeofentry" placeholder="Time of Entry(hh:mm)" required="">
+                    </div>
+                </div><!--main-flex-w3ls-sectns-->
+            <div class="radio-section">
+                <h6>Exit details</h6>
+                <div class="main-flex-w3ls-sectns">
+                    <div class="field-agileinfo-spc form-w3-agile-text1">
+                        <input type="text" name="Timeofexit" placeholder="Time of Exit(hh:mm)" required="">
+                    </div>
+                   
+                </div><!--main-flex-w3ls-sectns-->   
+            </div><!--radio-section-->
+            <div class="radio-section">
+                <h6>Status details</h6>
+                <div class="main-flex-w3ls-sectns">
+                    <div class="field-agileinfo-spc form-w3-agile-text1">
+                        <input type="text" name="Status" placeholder="Status" required="">
+                    </div>
+                   
+                </div><!--main-flex-w3ls-sectns-->   
+            </div><!--radio-section-->    
+        
+ <!------------------------------------------------------------------------------------------->            
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" value="Clear Form">
+        <div class="clear"></div>
+    </form>
+    <!--// Form starts here -->
+</div>
+</section>
+
+</body>
+</html>
